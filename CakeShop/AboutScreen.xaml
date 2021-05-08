@@ -1,0 +1,85 @@
+﻿<Window x:Class="CakeShop.AboutScreen"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        x:Name="aboutScreen"
+        Background="#444444"
+        Width="300"
+        Height="400"
+        Icon="Assets/Icons/ApplicationIcon.ico"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False"
+        ShowActivated="True">
+    <Grid>
+        <Border BorderBrush="#4C5969"
+                BorderThickness="1">
+            <Grid>
+                <Button x:Name="closeUserButton"
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Right"
+                        Margin="5"
+                        Padding="0"
+                        Background="#0288D1"
+                        Width="20"
+                        Height="20"
+                        IsCancel="True"
+                        Click="closeUserButton_Click">
+                    <materialDesign:PackIcon Kind="Close"/>
+                </Button>
+                <StackPanel VerticalAlignment="Top"
+                            HorizontalAlignment="Center"
+                            Margin="0 20 0 0">
+                    <Image Source="Assets/Icons/ApplicationBigIcon.ico"
+                       RenderOptions.BitmapScalingMode="HighQuality"
+                       Width="96"
+                       Height="96"/>
+                    <TextBlock TextAlignment="Center"
+                               Text="CAKE SHOP"
+                               FontFamily="Tahoma"
+                               FontWeight="Heavy"
+                               FontSize="30"
+                               Foreground="#FAFAFA"/>
+                    <TextBlock TextAlignment="Center"
+                               Text="phiên bản Beta"
+                               FontFamily="Tahoma"
+                               FontStyle="Italic"
+                               FontWeight="Thin"
+                               FontSize="14"
+                               Foreground="#FAFAFA"/>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Bottom"
+                            HorizontalAlignment="Center"
+                            Margin="0 0 0 20">
+                    <TextBlock Padding="2"
+                               Text="NTP Team"
+                               TextAlignment="Center"
+                               FontFamily="Tahoma"
+                               FontWeight="Heavy"
+                               FontSize="14"
+                               Foreground="#BBBBBB"/>
+                    <TextBlock HorizontalAlignment="Center"
+                               Padding="2"
+                               Text="Tô Ngọc Thiên Phú"
+                               FontFamily="Tahoma"
+                               Foreground="#FAFAFA"/>
+                    <TextBlock HorizontalAlignment="Center"
+                               Padding="2"
+                               Text="Bùi Quang Tuyến"
+                               FontFamily="Tahoma"
+                               Foreground="#FAFAFA"/>
+                    <TextBlock HorizontalAlignment="Center"
+                               Padding="2"
+                               Text="Nguyễn Duy Nhật"
+                               FontFamily="Tahoma"
+                               Foreground="#FAFAFA"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

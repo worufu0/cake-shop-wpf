@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="CakeShop.HomeUserControl"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CakeShop"
+             mc:Ignorable="d"
+             x:Name="homeUserControl"
+             d:DesignWidth="1280"
+             d:DesignHeight="720"
+             Background="#FAFAFA"
+             Loaded="homeUserControl_Loaded">
+    <Grid>
+        <TextBlock Margin="10"
+                   VerticalAlignment="Top"
+                   Foreground="#47CEEE"
+                   FontFamily="Tahoma"
+                   FontWeight="Heavy"
+                   FontSize="35">
+            TRANG CHỦ
+        </TextBlock>
+        <StackPanel Margin="10"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal">
+            <ComboBox x:Name="filterBox"
+                      Margin="5"
+                      Foreground="#000000"
+                      Background="Transparent"
+                      BorderBrush="#FAFAFA"
+                      Style="{StaticResource MaterialDesignFilledComboBox}"
+                      materialDesign:HintAssist.Hint="Lọc theo loại"
+                      materialDesign:HintAssist.Foreground="#AAAAAA"
+                      materialDesign:TextFieldAssist.UnderlineBrush="#5EB8FF"
+                      Width="200"
+                      SelectionChanged="filterBox_SelectionChanged">
+                <ComboBoxItem Content="Tất cả"/>
+                <ComboBoxItem Content="Bánh ngọt"/>
+                <ComboBoxItem Content="Bánh mặn"/>
+                <ComboBoxItem Content="Bánh đường phố"/>
+                <ComboBoxItem Content="Bánh đặc sản Việt Nam"/>
+            </ComboBox>
+            <Button x:Name="addButton"
+                    Margin="5"
+                    Background="#0288D1"
+                    Click="addButton_Click">
+                <materialDesign:PackIcon Kind="Add"/>
+            </Button>
+            <Button Margin="5"
+                    IsEnabled="False">
+                <materialDesign:PackIcon Kind="Delete"/>
+            </Button>
+        </StackPanel>
+        <ListView x:Name="dataListView"
+                  Margin="10 60 10 10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Loại bánh"
+                                    Width="400">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding cakeName}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Hình ảnh"
+                                    Width="250">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding image, Converter={StaticResource relativeToAbsoluteConverter}}"
+                                       Width="60"
+                                       Height="30"
+                                       Stretch="UniformToFill"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Giá"
+                                    Width="200">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding price}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Đã bán"
+                                    Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding quantitySold}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Còn lại"
+                                    Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding quantityLeft}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</UserControl>

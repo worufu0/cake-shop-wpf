@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="CakeShop.RevenuingUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CakeShop" xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             mc:Ignorable="d" 
+             x:Name="addingUserControl"
+             d:DesignWidth="1280"
+             d:DesignHeight="720"
+             Loaded="addingUserControl_Loaded">
+    <Grid>
+        <Grid Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Margin="10"
+                       Grid.Row="0"
+                       VerticalAlignment="Top"
+                       Foreground="#47CEEE"
+                       FontFamily="Tahoma"
+                       FontWeight="Heavy"
+                       FontSize="30">
+                THÔNG KÊ DOANG THU CỬA HÀNG
+            </TextBlock>
+            <Border Grid.Column="0"
+                    Grid.Row="1"
+                    Margin="5"
+                    Background="#282828"
+                    CornerRadius="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Margin="10"
+                               Grid.Row="0"
+                               VerticalAlignment="Top"
+                               Foreground="#FAFAFA"
+                               FontFamily="Tahoma"
+                               FontWeight="Heavy"
+                               FontSize="25">
+                        DOANH THU THEO THÁNG
+                    </TextBlock>
+                    <lvc:CartesianChart x:Name="cartesianChart"
+                                        Grid.Row="1"
+                                        LegendLocation="Bottom"
+                                        DisableAnimations="True"
+                                        Foreground="#FAFAFA"
+                                        Hoverable="True"
+                                        FontFamily="Tahoma"
+                                        FontWeight="Thin"
+                                        FontSize="13">
+                        <lvc:CartesianChart.DataTooltip>
+                            <lvc:DefaultTooltip ShowTitle="False"
+                                                Background="#111111"/>
+                        </lvc:CartesianChart.DataTooltip>
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis Title="Thu nhập"/>
+                        </lvc:CartesianChart.AxisY>
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="Thứ"
+                                      ShowLabels="False"/>
+                        </lvc:CartesianChart.AxisX>
+                    </lvc:CartesianChart>
+                </Grid>
+            </Border>
+            <Border Grid.Column="1"
+                    Grid.Row="1"
+                    Margin="5"
+                    Background="#282828"
+                    CornerRadius="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Margin="10"
+                               Grid.Row="0"
+                               VerticalAlignment="Top"
+                               Foreground="#FAFAFA"
+                               FontFamily="Tahoma"
+                               FontWeight="Heavy"
+                               FontSize="25">
+                        DOANH THU THEO LOẠI BÁNH
+                    </TextBlock>
+                    <lvc:PieChart x:Name="pieChart"
+                                  Grid.Row="1"
+                                  Margin="10"
+                                  LegendLocation="Bottom"
+                                  Hoverable="True"
+                                  DisableAnimations="True"
+                                  Foreground="#FFFFFF"
+                                  FontFamily="Tahoma"
+                                  FontWeight="Thin">
+                    <lvc:PieChart.DataTooltip>
+                        <lvc:DefaultTooltip Background="#111111"/>
+                    </lvc:PieChart.DataTooltip>
+                </lvc:PieChart>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

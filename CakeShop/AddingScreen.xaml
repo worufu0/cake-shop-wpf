@@ -1,0 +1,133 @@
+﻿<Window x:Class="CakeShop.AddingScreen"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CakeShop"
+        mc:Ignorable="d"
+        x:Name="addingScreen"
+        Background="#383838"
+        Width="400"
+        Height="500"
+        Icon="Assets/Icons/ApplicationIcon.ico"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False"
+        ShowActivated="True">
+    <Grid>
+        <Grid Margin="20 10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Text="THÊM LOẠI BÁNH"
+                       FontFamily="Tahoma"
+                       FontSize="25"
+                       FontWeight="Heavy"
+                       Foreground="#5EB8FF"/>
+            <Button x:Name="closeUserButton"
+                    Grid.Row="0"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"
+                    Margin="0"
+                    Padding="0"
+                    Background="#0288D1"
+                    Width="20"
+                    Height="20"
+                    IsCancel="True"
+                    Click="closeUserButton_Click">
+                <materialDesign:PackIcon Kind="Close"/>
+            </Button>
+            <StackPanel Grid.Row="1">
+                <TextBox x:Name="cakeNameBox"
+                         Margin="0 10"
+                         materialDesign:HintAssist.Hint="Tên loại bánh"
+                         materialDesign:HintAssist.Foreground="#5EB8FF"
+                         materialDesign:TextFieldAssist.UnderlineBrush="#5EB8FF"
+                         Foreground="#FAFAFA"
+                         BorderBrush="#FAFAFA"
+                         Width="300"
+                         MaxLength="32"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <ComboBox x:Name="typeBox"
+                          Margin="5"
+                          Foreground="#5EB8FF"
+                          Background="Transparent"
+                          BorderBrush="#FAFAFA"
+                          Style="{StaticResource MaterialDesignFilledComboBox}"
+                          materialDesign:HintAssist.Hint="Loại"
+                          materialDesign:HintAssist.Foreground="#AAAAAA"
+                          materialDesign:TextFieldAssist.UnderlineBrush="#5EB8FF"
+                          Width="300"
+                          SelectedIndex="0">
+                    <ComboBoxItem Content="Bánh ngọt"/>
+                    <ComboBoxItem Content="Bánh mặn"/>
+                    <ComboBoxItem Content="Bánh đường phố"/>
+                    <ComboBoxItem Content="Bánh đặc sản Việt Nam"/>
+                </ComboBox>
+                <StackPanel Margin="0 10"
+                            HorizontalAlignment="Center"
+                            Orientation="Horizontal">
+                    <TextBox x:Name="imageBox"
+                             materialDesign:HintAssist.Hint="Hình ảnh"
+                             materialDesign:HintAssist.Foreground="#5EB8FF"
+                             materialDesign:TextFieldAssist.UnderlineBrush="#5EB8FF"
+                             Foreground="#FAFAFA"
+                             BorderBrush="#FAFAFA"
+                             Width="240"
+                             IsReadOnly="True"
+                             Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                    <Button x:Name="imageButton"
+                            Margin="10 0 0 0"
+                            VerticalAlignment="Bottom"
+                            Background="#0288D1"
+                            Width="50"
+                            Click="imageButton_Click">
+                        <materialDesign:PackIcon HorizontalAlignment="Center"
+                                                 VerticalAlignment="Center"
+                                                 Kind="Image"
+                                                 Width="30"
+                                                 Height="30"/>
+                    </Button>
+                </StackPanel>
+                <TextBox x:Name="priceBox"
+                         Margin="0 10"
+                         Text="0"
+                         materialDesign:HintAssist.Hint="Giá"
+                         materialDesign:HintAssist.Foreground="#5EB8FF"
+                         materialDesign:TextFieldAssist.UnderlineBrush="#5EB8FF"
+                         Foreground="#FAFAFA"
+                         BorderBrush="#FAFAFA"
+                         Width="300"
+                         MaxLength="7"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         PreviewTextInput="textBox_PreviewTextInput"/>
+                <TextBox x:Name="quantityBox"
+                         Margin="0 10"
+                         Text="0"
+                         materialDesign:HintAssist.Hint="Số lượng"
+                         materialDesign:HintAssist.Foreground="#5EB8FF"
+                         materialDesign:TextFieldAssist.UnderlineBrush="#5EB8FF"
+                         Foreground="#FAFAFA"
+                         BorderBrush="#FAFAFA"
+                         Width="300"
+                         MaxLength="4"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         PreviewTextInput="textBox_PreviewTextInput"/>
+            </StackPanel>
+            <Button x:Name="addButton"
+                    Grid.Row="2"
+                    Width="100"
+                    Background="#0288D1"
+                    Click="addButton_Click">
+                THÊM
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

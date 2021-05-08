@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <parameterSettings>
+    <splashScreenDisabled>false</splashScreenDisabled>
+  </parameterSettings>
+  <cakes>
+    <Cake>
+      <id>0</id>
+      <cakeName>Bánh bông lan</cakeName>
+      <image>0.jpg</image>
+      <type>1</type>
+      <price>20000</price>
+      <quantitySold>30</quantitySold>
+      <quantityLeft>60</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>1</id>
+      <cakeName>Bánh carac</cakeName>
+      <image>1.jpg</image>
+      <type>1</type>
+      <price>30000</price>
+      <quantitySold>10</quantitySold>
+      <quantityLeft>40</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>2</id>
+      <cakeName>Bánh chocolate suffle</cakeName>
+      <image>2.jpg</image>
+      <type>1</type>
+      <price>40000</price>
+      <quantitySold>36</quantitySold>
+      <quantityLeft>96</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>3</id>
+      <cakeName>Bánh Crepe</cakeName>
+      <image>3.jpg</image>
+      <type>1</type>
+      <price>10000</price>
+      <quantitySold>20</quantitySold>
+      <quantityLeft>30</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>4</id>
+      <cakeName>Bánh dừa dứa</cakeName>
+      <image>4.jpg</image>
+      <type>1</type>
+      <price>23000</price>
+      <quantitySold>158</quantitySold>
+      <quantityLeft>112</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>5</id>
+      <cakeName>Bánh gato</cakeName>
+      <image>5.jpg</image>
+      <type>1</type>
+      <price>35000</price>
+      <quantitySold>30</quantitySold>
+      <quantityLeft>30</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>6</id>
+      <cakeName>Bánh ile flottante</cakeName>
+      <image>6.jpg</image>
+      <type>1</type>
+      <price>75000</price>
+      <quantitySold>52</quantitySold>
+      <quantityLeft>40</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>7</id>
+      <cakeName>Bánh ngọt con sò</cakeName>
+      <image>7.jpg</image>
+      <type>1</type>
+      <price>15000</price>
+      <quantitySold>33</quantitySold>
+      <quantityLeft>87</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>8</id>
+      <cakeName>Bánh opera</cakeName>
+      <image>8.jpg</image>
+      <type>1</type>
+      <price>30000</price>
+      <quantitySold>100</quantitySold>
+      <quantityLeft>150</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>9</id>
+      <cakeName>Bánh oreo</cakeName>
+      <image>9.jpg</image>
+      <type>1</type>
+      <price>10000</price>
+      <quantitySold>500</quantitySold>
+      <quantityLeft>600</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>10</id>
+      <cakeName>Bánh phu thê</cakeName>
+      <image>10.jpg</image>
+      <type>1</type>
+      <price>50000</price>
+      <quantitySold>53</quantitySold>
+      <quantityLeft>13</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>11</id>
+      <cakeName>Bánh pía</cakeName>
+      <image>11.jpg</image>
+      <type>1</type>
+      <price>30000</price>
+      <quantitySold>42</quantitySold>
+      <quantityLeft>78</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>12</id>
+      <cakeName>Bánh pie chanh</cakeName>
+      <image>12.jpg</image>
+      <type>1</type>
+      <price>25000</price>
+      <quantitySold>80</quantitySold>
+      <quantityLeft>20</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>13</id>
+      <cakeName>Bánh quế</cakeName>
+      <image>13.jpg</image>
+      <type>1</type>
+      <price>20000</price>
+      <quantitySold>70</quantitySold>
+      <quantityLeft>100</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>14</id>
+      <cakeName>Bánh red velvet</cakeName>
+      <image>14.jpg</image>
+      <type>1</type>
+      <price>40000</price>
+      <quantitySold>30</quantitySold>
+      <quantityLeft>30</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>15</id>
+      <cakeName>Bánh religieuse</cakeName>
+      <image>15.jpg</image>
+      <type>1</type>
+      <price>40000</price>
+      <quantitySold>33</quantitySold>
+      <quantityLeft>70</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>16</id>
+      <cakeName>Bánh soufle</cakeName>
+      <image>16.jpg</image>
+      <type>1</type>
+      <price>40000</price>
+      <quantitySold>30</quantitySold>
+      <quantityLeft>40</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>17</id>
+      <cakeName>Bánh su kem pháp</cakeName>
+      <image>17.jpg</image>
+      <type>1</type>
+      <price>120000</price>
+      <quantitySold>26</quantitySold>
+      <quantityLeft>60</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>18</id>
+      <cakeName>Bánh trôi nước</cakeName>
+      <image>18.jpg</image>
+      <type>1</type>
+      <price>10000</price>
+      <quantitySold>40</quantitySold>
+      <quantityLeft>200</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>19</id>
+      <cakeName>Bánh victory singapore</cakeName>
+      <image>19.jpg</image>
+      <type>1</type>
+      <price>750000</price>
+      <quantitySold>30</quantitySold>
+      <quantityLeft>50</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>20</id>
+      <cakeName>Bánh vua</cakeName>
+      <image>20.jpg</image>
+      <type>1</type>
+      <price>150000</price>
+      <quantitySold>14</quantitySold>
+      <quantityLeft>1</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>21</id>
+      <cakeName>Bánh bao</cakeName>
+      <image>21.jpg</image>
+      <type>2</type>
+      <price>15000</price>
+      <quantitySold>38</quantitySold>
+      <quantityLeft>2</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>22</id>
+      <cakeName>Bánh bột lọc</cakeName>
+      <image>22.jpg</image>
+      <type>2</type>
+      <price>4000</price>
+      <quantitySold>5</quantitySold>
+      <quantityLeft>65</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>23</id>
+      <cakeName>Bánh chưng</cakeName>
+      <image>23.jpg</image>
+      <type>2</type>
+      <price>35000</price>
+      <quantitySold>10</quantitySold>
+      <quantityLeft>20</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>24</id>
+      <cakeName>Bánh gạo Hàn Quốc</cakeName>
+      <image>24.jpg</image>
+      <type>2</type>
+      <price>2000</price>
+      <quantitySold>170</quantitySold>
+      <quantityLeft>30</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>25</id>
+      <cakeName>Bánh ích</cakeName>
+      <image>25.jpg</image>
+      <type>2</type>
+      <price>18000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>28</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>26</id>
+      <cakeName>Bánh mì</cakeName>
+      <image>26.jpg</image>
+      <type>2</type>
+      <price>20000</price>
+      <quantitySold>200</quantitySold>
+      <quantityLeft>10</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>27</id>
+      <cakeName>Bánh pho mát</cakeName>
+      <image>27.jpg</image>
+      <type>2</type>
+      <price>26000</price>
+      <quantitySold>11</quantitySold>
+      <quantityLeft>6</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>28</id>
+      <cakeName>Bánh tẻ</cakeName>
+      <image>28.jpg</image>
+      <type>2</type>
+      <price>16000</price>
+      <quantitySold>1</quantitySold>
+      <quantityLeft>9</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>29</id>
+      <cakeName>Bánh tiêu</cakeName>
+      <image>29.jpg</image>
+      <type>2</type>
+      <price>7000</price>
+      <quantitySold>1</quantitySold>
+      <quantityLeft>19</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>30</id>
+      <cakeName>Bánh xèo</cakeName>
+      <image>30.jpg</image>
+      <type>2</type>
+      <price>30000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>28</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>31</id>
+      <cakeName>Bánh bò</cakeName>
+      <image>31.jpg</image>
+      <type>3</type>
+      <price>5000</price>
+      <quantitySold>15</quantitySold>
+      <quantityLeft>25</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>32</id>
+      <cakeName>Bánh chuối chiên</cakeName>
+      <image>32.jpg</image>
+      <type>3</type>
+      <price>6000</price>
+      <quantitySold>32</quantitySold>
+      <quantityLeft>8</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>33</id>
+      <cakeName>Bánh creme brulee</cakeName>
+      <image>33.jpg</image>
+      <type>3</type>
+      <price>25000</price>
+      <quantitySold>21</quantitySold>
+      <quantityLeft>29</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>34</id>
+      <cakeName>Bánh cuốn</cakeName>
+      <image>34.jpg</image>
+      <type>3</type>
+      <price>18000</price>
+      <quantitySold>10</quantitySold>
+      <quantityLeft>20</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>35</id>
+      <cakeName>Bánh dorayaki Nhật Bản</cakeName>
+      <image>35.jpg</image>
+      <type>3</type>
+      <price>50000</price>
+      <quantitySold>17</quantitySold>
+      <quantityLeft>23</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>36</id>
+      <cakeName>Bánh đa</cakeName>
+      <image>36.jpg</image>
+      <type>3</type>
+      <price>20000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>24</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>37</id>
+      <cakeName>Bánh khọt</cakeName>
+      <image>37.jpg</image>
+      <type>3</type>
+      <price>6000</price>
+      <quantitySold>16</quantitySold>
+      <quantityLeft>40</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>38</id>
+      <cakeName>Bánh macaron</cakeName>
+      <image>38.jpg</image>
+      <type>3</type>
+      <price>15000</price>
+      <quantitySold>98</quantitySold>
+      <quantityLeft>2</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>39</id>
+      <cakeName>Bánh mì Thổ Nhĩ Kỳ</cakeName>
+      <image>39.jpg</image>
+      <type>3</type>
+      <price>15000</price>
+      <quantitySold>56</quantitySold>
+      <quantityLeft>44</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>40</id>
+      <cakeName>Bánh nậm</cakeName>
+      <image>40.jpg</image>
+      <type>3</type>
+      <price>10000</price>
+      <quantitySold>10</quantitySold>
+      <quantityLeft>20</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>41</id>
+      <cakeName>Bánh táo Mỹ</cakeName>
+      <image>41.jpg</image>
+      <type>3</type>
+      <price>50000</price>
+      <quantitySold>5</quantitySold>
+      <quantityLeft>5</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>42</id>
+      <cakeName>Bánh tarte</cakeName>
+      <image>42.jpg</image>
+      <type>3</type>
+      <price>38000</price>
+      <quantitySold>19</quantitySold>
+      <quantityLeft>1</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>43</id>
+      <cakeName>Bánh nướng</cakeName>
+      <image>43.jpg</image>
+      <type>3</type>
+      <price>20000</price>
+      <quantitySold>33</quantitySold>
+      <quantityLeft>4</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>44</id>
+      <cakeName>Bánh tráng trộn</cakeName>
+      <image>44.jpg</image>
+      <type>3</type>
+      <price>10000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>60</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>45</id>
+      <cakeName>Bánh ú</cakeName>
+      <image>45.jpg</image>
+      <type>3</type>
+      <price>10000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>13</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>46</id>
+      <cakeName>Bánh bò An Giang</cakeName>
+      <image>46.jpg</image>
+      <type>4</type>
+      <price>8000</price>
+      <quantitySold>28</quantitySold>
+      <quantityLeft>3</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>47</id>
+      <cakeName>Bánh bò miền tây</cakeName>
+      <image>47.jpg</image>
+      <type>4</type>
+      <price>4000</price>
+      <quantitySold>57</quantitySold>
+      <quantityLeft>110</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>48</id>
+      <cakeName>Bánh bột lọc Huế</cakeName>
+      <image>48.jpg</image>
+      <type>4</type>
+      <price>6000</price>
+      <quantitySold>80</quantitySold>
+      <quantityLeft>130</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>49</id>
+      <cakeName>Bánh cáy Thái Bình</cakeName>
+      <image>49.jpg</image>
+      <type>4</type>
+      <price>20000</price>
+      <quantitySold>55</quantitySold>
+      <quantityLeft>20</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>50</id>
+      <cakeName>Bánh chuối nướng miền tây</cakeName>
+      <image>50.jpg</image>
+      <type>4</type>
+      <price>5000</price>
+      <quantitySold>176</quantitySold>
+      <quantityLeft>200</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>51</id>
+      <cakeName>Bánh chưng đen tây bắc</cakeName>
+      <image>51.jpg</image>
+      <type>4</type>
+      <price>40000</price>
+      <quantitySold>15</quantitySold>
+      <quantityLeft>25</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>52</id>
+      <cakeName>Bánh cốm Hà Nội</cakeName>
+      <image>52.jpg</image>
+      <type>4</type>
+      <price>26000</price>
+      <quantitySold>78</quantitySold>
+      <quantityLeft>24</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>53</id>
+      <cakeName>Bánh cu đơ Hà Tĩnh</cakeName>
+      <image>53.jpg</image>
+      <type>4</type>
+      <price>10000</price>
+      <quantitySold>70</quantitySold>
+      <quantityLeft>23</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>54</id>
+      <cakeName>Bánh cuốn Lạng Sơn</cakeName>
+      <image>54.jpg</image>
+      <type>4</type>
+      <price>6000</price>
+      <quantitySold>142</quantitySold>
+      <quantityLeft>38</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>55</id>
+      <cakeName>Bánh da lợn miền tây</cakeName>
+      <image>55.jpg</image>
+      <type>4</type>
+      <price>9000</price>
+      <quantitySold>10</quantitySold>
+      <quantityLeft>20</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>56</id>
+      <cakeName>Bánh gai bắc bộ</cakeName>
+      <image>56.jpg</image>
+      <type>4</type>
+      <price>36000</price>
+      <quantitySold>1</quantitySold>
+      <quantityLeft>10</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>57</id>
+      <cakeName>Bánh giày tây bắc</cakeName>
+      <image>57.jpg</image>
+      <type>4</type>
+      <price>20000</price>
+      <quantitySold>8</quantitySold>
+      <quantityLeft>2</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>58</id>
+      <cakeName>Bánh khoai mì</cakeName>
+      <image>58.jpg</image>
+      <type>4</type>
+      <price>10000</price>
+      <quantitySold>42</quantitySold>
+      <quantityLeft>6</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>59</id>
+      <cakeName>Bánh khọt Vũng Tàu</cakeName>
+      <image>59.jpg</image>
+      <type>4</type>
+      <price>8000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>30</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>60</id>
+      <cakeName>Bánh khô mè Đã Nẵng</cakeName>
+      <image>60.jpg</image>
+      <type>4</type>
+      <price>40000</price>
+      <quantitySold>17</quantitySold>
+      <quantityLeft>6</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>61</id>
+      <cakeName>Bánh tai yến miền tây</cakeName>
+      <image>61.jpg</image>
+      <type>4</type>
+      <price>6000</price>
+      <quantitySold>125</quantitySold>
+      <quantityLeft>250</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>62</id>
+      <cakeName>Bánh tét miền nam</cakeName>
+      <image>62.jpg</image>
+      <type>4</type>
+      <price>20000</price>
+      <quantitySold>11</quantitySold>
+      <quantityLeft>35</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>63</id>
+      <cakeName>Bánh ú nước tro nam bộ</cakeName>
+      <image>63.jpg</image>
+      <type>4</type>
+      <price>16000</price>
+      <quantitySold>12</quantitySold>
+      <quantityLeft>25</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>64</id>
+      <cakeName>Bánh xoài Hội An</cakeName>
+      <image>64.jpg</image>
+      <type>4</type>
+      <price>45000</price>
+      <quantitySold>40</quantitySold>
+      <quantityLeft>43</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>65</id>
+      <cakeName>Bánh xôi vị miền tây</cakeName>
+      <image>65.jpg</image>
+      <type>4</type>
+      <price>20000</price>
+      <quantitySold>11</quantitySold>
+      <quantityLeft>100</quantityLeft>
+    </Cake>
+    <Cake>
+      <id>66</id>
+      <cakeName>Bánh bèo</cakeName>
+      <image>Aries.png</image>
+      <type>3</type>
+      <price>20000</price>
+      <quantitySold>0</quantitySold>
+      <quantityLeft>100</quantityLeft>
+    </Cake>
+  </cakes>
+  <tips>
+    <string>Bánh mì Việt Nam có trong từ điển Oxford.</string>
+    <string>Bánh tro là một phần không thể thiếu trong tết Đoan Ngọ. Nó là một cách thể hiện sự hòa hợp giữa con người với đất trời.</string>
+    <string>Lamington là chiếc bánh mang theo cả niềm tự hào của người Australia. Đây là món bánh được yêu thích trên khắp đất nước, thậm chí chính phủ Australia còn chọn ngày 21/7 là ngày bánh Lamington.</string>
+    <string>Bánh chưng từ lâu đã gắn liền với ý nghĩa "mặt đất hình vuông" trong sự tích "Bánh chưng bánh dày" của Lang Liêu - con Vua Hùng thứ 18.</string>
+    <string>Đòn bánh Tét mà người miền Nam dùng trong ngày Tết hôm nay là sản phẩm của quá trình giao lưu văn hóa Việt – Chăm, mà trong đó tín ngưỡng thờ thần lúa là đại diện.</string>
+    <string>Pizza là một trong những niềm tự hào về tinh hoa ẩm thực độc đáo của người Italy, nhưng một số tư liệu lại cho rằng món bánh này có nguồn gốc sâu xa từ đất nước Hy Lạp.</string>
+    <string>Chesse Cake là loại bánh ngọt được làm chủ yếu từ phô mai, được làm từ những năm 1800 và trở thành một trong những món bánh quen thuộc của người dân New York.</string>
+    <string>Tiramisu: Là loại bánh ngọt tráng miệng vị cà phê rất nổi tiếng của Italy. Món bánh này còn có một tên gọi khác là "thiên đường ở trong miệng", nhằm ca ngợi độ ngon của Tiramisu.</string>
+    <string>Black Forest: Đây là một kiểu bánh có nguồn gốc từ Đức với tên gốc là Schwarzwälder Kirschtorte.</string>
+    <string>Victoria Sponge: Đây là loại bánh được đặt theo tên của nữ hoàng Anh Victoria. Một chiếc Victoria Sponge truyền thống gồm mứt và lượng kem nhiều gấp đôi. Bánh thường được dùng trong tiệc trà chiều của người.</string>
+    <string>Sachertorte: Đây là một loại bánh được tạo ra bởi chocolate tuyệt hảo nhất nước Áo. Món bánh chocolate này nổi tiếng và thành phố Vienna đã ấn định tổ chức một ngày Sachertorte quốc gia, vào ngày 5/12 hàng năm.</string>
+    <string>Swedish Princess: Bánh công chúa của Thụy Điển là món bánh ngọt truyền thống, nhiều người yêu thích. Ban đầu, bánh được làm để phục vụ hoàng gia.</string>
+    <string>Mochi: Là món ăn truyền thống trong ngày Tết được người Nhật yêu thích, món bánh này tượng trưng cho sự may mắn và thịnh vượng trong năm mới.</string>
+    <string>Macaron: Đây là một loại bánh ngọt của Pháp, bánh được làm từ lòng trắng trứng, đường bột, đường cát, bột hạnh nhân và một ít phẩm màu tự nhiên.</string>
+    <string>Bánh Pandan còn có tên gọi khác là bánh bông lan lá dứa. Đây là món bánh rất nổi tiếng ở Singapore, thường được nhiều du khách mua về làm quà.</string>
+    <string>Tapioca: Đây là một món ăn có mặt khắp phố phường của Brazil. Bánh được làm với lớp bột mì cán mỏng nướng giòn, khi ăn sẽ kẹp với kem, chuối, pho mát, chocolate.</string>
+    <string>Pavlova: Loại bánh này được đặt theo tên của vũ công ballet hàng đầu của nước Nga, Anna Pavlova. Món bánh được tạo ra để vinh danh cô khi Pavlova đi lưu diễn ở Australia và New Zealand trong những năm 1920.</string>
+    <string>Apple Pie: Bánh táo được xem là biểu tượng của nền văn hóa ẩm thực Mỹ, thể hiện sự thịnh vượng và là niềm tự hào trong suốt những năm của thế kỷ 19 và 20 của đất nước này.</string>
+    <string>Dorayaki: Món bánh rán này đã trở thành huyền thoại đối với các fan của chú mèo máy Doraemon trên toàn thế giới.</string>
+    <string>Bánh Gateau St. Honore được đặt theo tên một vị thánh nghề bánh và có xuất sứ từ Pháp nhưng bạn hãy thử loại bánh này ở Bỉ vì nó rất ngon.</string>
+    <string>Madeleines: Đây là món ăn đơn giản, quen thuộc nhưng rất được yêu thích của người Pháp và thường được gọi với tên bánh con sò. Người ta thường tôn vinh loại bánh này với tên gọi "nàng thơ trong các bữa tiệc trà của nước Pháp".</string>
+    <string>Bourbon Petit Series là tên gọi của 1 series các loại bánh quy hay bánh gạo “cỡ bé xíu (size petit) nhưng mang lại niềm hạnh phúc vừa đủ”.</string>
+    <string>Ryukakusan là loại kẹo ngậm không thể thiếu đối với người Nhật mỗi khi bị đau họng. Chỉ cần một viên cũng có thể làm dịu đi cảm giác khó chịu ở cổ họng.</string>
+    <string>Series kẹo Hi-chew là niềm tự hào của công ty sản xuất bánh kẹo Morinaga khi vẫn giữ nguyên hương vị ban đầu từ khi bắt đầu được bán ra từ năm 1975, được yêu thích đến mức chỉ cần cho kẹo vào miệng thôi là đã phát ghiền lên rồi.</string>
+    <string>Bánh Crepe với nhiều công thức khác nhau là món ăn hoàn hảo cho mọi hoàn cảnh: bữa sáng, món khai vị cho bữa trưa, món tráng miệng cho bữa tối.</string>
+    <string>Bánh Dango Nhật Bản được dùng quanh năm, tuy nhiên mỗi mùa sẽ có những hương vị khác nhau theo truyền thống của xứ mặt trời này. Bánh có vị ngọt, vì thế khi người ta thường dùng chung với trà xanh để giảm bớt độ gắt.</string>
+    <string>Rosca de Reyes là món bánh nướng truyền thống, xuất hiện trên bàn ăn của mọi gia đình Tây Ban Nha. Chiếc bánh hình oval này tượng trưng ba 3 người đàn ông lanh lợi.</string>
+    <string>Món bánh xèo Ấn Độ – Masala Dosa được bình chọn là một trong 40 món ăn ngon nhất Thế Giới.</string>
+    <string>Nhắc đến nước Pháp hẳn ai cũng nghĩ đến món bánh sừng bò nổi tiếng, tuy nhiên Croissant lại được sinh ra tại Áo, dưới cái tên “kipferl”.</string>
+    <string>Mille Fueille Loại bánh này còn có tên là “Napoleon”, tuy nhiên ở Pháp, nó thường được gọi là “Mille-fueille”, có nghĩa là “ngàn chiếc lá”.</string>
+  </tips>
+  <monthRevenue>
+    <Revenue>
+      <criteria>1</criteria>
+      <revenue>3600000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>2</criteria>
+      <revenue>5780000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>3</criteria>
+      <revenue>2390000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>4</criteria>
+      <revenue>8120000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>5</criteria>
+      <revenue>6540000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>6</criteria>
+      <revenue>3100000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>7</criteria>
+      <revenue>4650000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>8</criteria>
+      <revenue>12500000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>9</criteria>
+      <revenue>9630000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>10</criteria>
+      <revenue>12000000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>11</criteria>
+      <revenue>12560000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>12</criteria>
+      <revenue>2260000</revenue>
+    </Revenue>
+  </monthRevenue>
+  <cakeTypeRevenue>
+    <Revenue>
+      <criteria>1</criteria>
+      <revenue>58769000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>2</criteria>
+      <revenue>6165000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>3</criteria>
+      <revenue>6440000</revenue>
+    </Revenue>
+    <Revenue>
+      <criteria>4</criteria>
+      <revenue>11756000</revenue>
+    </Revenue>
+  </cakeTypeRevenue>
+</Data>
